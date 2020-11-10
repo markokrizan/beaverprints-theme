@@ -161,24 +161,24 @@
               "menu": "footer"
             }
           },
-          "e14be1ff-5fa4-4fb2-b411-ebab810f151c": {
-            "type": "text",
+          "c4100878-6ed0-428e-980f-2c81188398e1": {
+            "type": "link_list",
             "settings": {
-              "title": "Talk about your business",
-              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "title": "Policies",
+              "menu": "policies"
             }
           },
-          "footer-1": {
+          "bc8aa00d-64a8-4260-a949-5ca33cf0f45d": {
             "type": "newsletter",
             "settings": {
-              "title": "Newsletter"
+              "title": "Sign up for our newsletter and be the first to know about coupons and special promotions."
             }
           }
         },
         "block_order": [
           "footer-0",
-          "e14be1ff-5fa4-4fb2-b411-ebab810f151c",
-          "footer-1"
+          "c4100878-6ed0-428e-980f-2c81188398e1",
+          "bc8aa00d-64a8-4260-a949-5ca33cf0f45d"
         ],
         "settings": {
           "show_payment_icons": true,

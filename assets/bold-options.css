@@ -55,10 +55,8 @@ bold-options.css version 6
                 font-weight: normal;
         }
 
-    .bold_option_dropdown .bold_option_element {
-        margin-left: 5px;
-    }
     .bold_option_value {
+        display: block;
         margin-right: 15px;
     }
 

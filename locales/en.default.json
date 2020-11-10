@@ -73,7 +73,7 @@
     },
     "newsletter_form": {
       "newsletter_email": "Subscribe to our mailing list",
-      "email_placeholder": "Email address",
+      "email_placeholder": "Your email address...",
       "confirmation": "Thanks for subscribing!",
       "submit": "Subscribe"
     },
