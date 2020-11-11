@@ -139,7 +139,7 @@
         <script>window.performance.mark('debut:product:title_visible');</script>
 
           <div class="product__price">
-            {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
+            {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %} ( + <span class="bold_option_price_display product-price_price"></span> )
           </div>
 
           {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
