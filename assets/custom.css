@@ -1,0 +1,93 @@
+/* Custom css - mostly for bold overrides */
+
+/* Form sections labels */
+
+.product-form__item label {
+    font-weight: 600;
+    text-transform: lowercase;
+    font-size: 17px !important;
+    color: #555;
+    letter-spacing: 0.3px;
+    margin-bottom: -1px;
+    margin-top: 15px !important;
+    display: block;
+}
+
+.bold_option_title {
+    font-weight: 600;
+    text-transform: lowercase;
+    font-size: 17px !important;
+    color: #555;
+    letter-spacing: 0.3px;
+    margin-bottom: -1px;
+    margin-top: 15px !important;
+    display: block;
+}
+
+/* ------------------- */
+
+/* Custom radio input: */
+
+/* Default radio input override */
+.bold_option_radio input {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.bold_option_radio .bold_option_value_element {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+/* ------------------- */
+
+/* Radio options container */
+.bold_option_radio .bold_option_element {
+    display: flex;
+}
+
+.bold_option_radio .bold_option_value {
+    margin: 0;
+}
+
+/* Defualt radio option styles */
+.bold_option_radio label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 4px 11px;
+    border: 2px solid #ddd;
+    font-weight: 600;
+    margin-right: 3px;
+    margin-top: 0px !important;
+    color: #999;
+    cursor: pointer;
+}
+
+.bold_option_radio label:hover {
+    background-color: #d4ffff;
+}
+
+/* Selected radio styles */
+.cstm-radio-selected {
+    color: #444;
+    background-color: white;
+    border: 4px dotted #f78265 !important;
+    cursor: default;
+}
+
+/* ------------------- */
+
+/* Media query breaks:  */
+
+@media screen and (min-width: 769px) {
+    .bold_option_textbox input, .bold_option_textboxmulti input {
+        width: 65% !important;
+        min-width: 300px;
+        margin: 0;
+        min-height: 0;
+    }
+}

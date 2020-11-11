@@ -7002,3 +7002,9 @@ hr {
 
 .store-availability-list__phone {
   margin-bottom: 0; }
+.form-message--success {
+background-color: #623515;
+    color: #FAF9F7;
+border-color: #FFB400;
+}
+}
